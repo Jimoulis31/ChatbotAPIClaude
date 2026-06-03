@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # Claude Chatbot (Tkinter)
 
 A simple desktop chatbot built with Python, Tkinter, and the Anthropic Claude API.
