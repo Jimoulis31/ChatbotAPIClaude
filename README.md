@@ -1,29 +1,101 @@
 # Claude Chatbot (Tkinter)
 
-A simple desktop chatbot built with Python, Tkinter, and the Anthropic Claude API.
+A simple desktop chatbot built with **Python**, **Tkinter**, and the **Anthropic Claude API**.
+
+The application provides a clean graphical interface and supports real-time streaming responses from Claude while keeping the UI responsive through multithreading.
+
+---
 
 ## Features
-- Real-time streaming responses
-- GUI chat interface
-- Multi-threaded (no freezing UI)
 
-## Setup
+- ⚡ Real-time streaming responses
+- 🖥️ Clean and easy-to-use GUI
+- 🔄 Multi-threaded architecture (prevents UI freezing)
+- 🔐 Secure API key handling through environment variables
+- 🚀 Lightweight and easy to set up
 
-### 1. Install dependencies
+---
+
+## Screenshot
+
+Add a screenshot of the application below:
+
+![Claude Chatbot Screenshot](images/APIChatBot.png)
+
+
+---
+
+## Requirements
+
+- Python 3.10+
+- Anthropic API Key
+- Internet Connection
+
+---
+
+## Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/claude-chatbot.git
+cd claude-chatbot
+```
+
+### 2. Install Dependencies
+
+```bash
 pip install anthropic
+```
 
-### 2. Set API key (IMPORTANT)
+### 3. Set Your API Key
 
-Windows (PowerShell):
+#### Windows (PowerShell)
+
+```powershell
 setx ANTHROPIC_API_KEY "your_api_key_here"
+```
 
-Restart terminal after setting it.
+Restart your terminal after setting the variable.
 
-### 3. Run the app
+#### Linux / macOS
+
+```bash
+export ANTHROPIC_API_KEY="your_api_key_here"
+```
+
+---
+
+## Running the Application
+
+```bash
 python ChatbotReadyAPIClaude.py
+```
+
+---
+
+## Project Structure
+
+```text
+.
+├── ChatbotReadyAPIClaude.py
+├── README.md
+├── .gitignore
+└── images/
+    └── screenshot.png
+```
+
+---
 
 ## Notes
-- Uses Claude streaming API
-- Requires internet connection
-- Make sure .gitignore is set to avoid uploading sensitive files
-EOF
+
+- Uses the Anthropic Claude Streaming API.
+- Requires an active internet connection.
+- Do not upload API keys to GitHub.
+- Make sure your `.gitignore` excludes sensitive files.
+
+---
+
+## License
+
+This project is open-source and available under the MIT License.
