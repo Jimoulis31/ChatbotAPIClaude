@@ -20,7 +20,7 @@ The application provides a clean graphical interface and supports real-time stre
 
 Add a screenshot of the application below:
 
-![Claude Chatbot Screenshot](images/APIChatBot.png)
+![Claude Chatbot Screenshot](APIChatBot.png)
 
 
 ---
