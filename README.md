@@ -102,6 +102,4 @@ claude-chatbot/
 
 ## 📧 Contact
 
-Created by Mitsos – feel free to contribute or open issues!
-
-EOF
+Created by **Jimoulis31** – feel free to contribute or open issues!
